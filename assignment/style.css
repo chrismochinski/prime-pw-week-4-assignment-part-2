@@ -2,28 +2,48 @@
 
 header {
   text-align: center;
-  font-size: 10px;
+  font-size: 7px;
   font-family: verdana, sans-serif;
   text-decoration-line: underline;
-  color: rgba(0, 0, 0, 0.3);
-  background-color: #E3E3E3;
+  color: rgba(0, 0, 0, 0.5);
+  background-color: #FFF7C6;
   border-style: dashed;
-  border-color: #D1D1D1;
+  border-color: #E4D88F;
   border-width: thin;
-  margin-left: 30%;
-  margin-right: 30%;
+  /* margin-left: 36%;
+  margin-right: 36%; */
 }
 
 h2 {
   color: #6F0252;
   background-color: #78EE58;
   font-variant: small-caps;
-  border-radius: 50%;
+  /* border-radius: 10%; */
+  border-style: double;
   text-align: center;
   font-size: 45px;
   margin-left: auto;
   margin-right: auto;
-  font-family: monospace;
+  font-family: sans-serif;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #78EE58;
+  background-color: #60115C;
+  font-variant: small-caps;
+  border-radius: 50%;
+  border-style: double;
+  text-align: center;
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: sans-serif;
 }
 
 .row {
@@ -37,6 +57,10 @@ h2 {
 img {
   width: 100%;
   display: block;
+}
+
+body {
+  background-color: #FFEC7A;
 }
 
 p {
