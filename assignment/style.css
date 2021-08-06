@@ -1,12 +1,12 @@
 /* Stylesheet for w4 p2!! */
 
-header {
+header { /*this is my header element - I learned I DON'T need to make it a "class" */
   text-align: center;
   font-size: 7px;
   font-family: verdana, sans-serif;
   text-decoration-line: underline;
   color: rgba(0, 0, 0, 0.5);
-  background-color: #FFF7C6;
+  background-color: #FFF7C6; /*found a nice site, bookmarked it - HTML color codes */
   border-style: dashed;
   border-color: #E4D88F;
   border-width: thin;
@@ -17,8 +17,8 @@ header {
 h2 {
   color: #6F0252;
   background-color: #78EE58;
-  font-variant: small-caps;
-  /* border-radius: 10%; */
+  font-variant: small-caps; /* I sometimes write like this and love that it's a thing */
+  /* border-radius: 10%; */ /* just trying and clearing stuff */
   border-style: double;
   text-align: center;
   font-size: 45px;
